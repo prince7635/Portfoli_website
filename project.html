@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap project</title>
+
+ <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+ <!-- fontawesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   <!-- favicon icon -->
+    <link rel="icon" type="images.jpg" href="12.jpg">
+    
+    <!-- css link  -->
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="responsive-style.css">
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <!-- Navbar section -->
+
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="12.jpg" width="100px" class="img-fluid rounded-4" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars-staggered toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav menu-navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn" href="https://www.linkedin.com/in/prince-kumar-11a3b6261/">Hire Me</a>
+                  </li>               
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <!-- banner-section -->
+        <section id="home" class="banner_wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center text-md-start">
+                <h6>WELCOME TO MY WORLD</h6>
+                <h1>I,m Prince kr. Giri<br><span>Frontend-Developer</span><br>Location, India</h1>
+                <div class="mt-4">
+                  <a class="main-btn" href="princekr.giri resume.pdf">Download CV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- about section  -->
+      <section class="about_wrapper" id="about">  
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <img src="prince.photo.jpg" alt="About-us" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+              <div class="my-3 my-lg-0">
+                <span class="subtitle">About My Details</span>
+                <h2>About Me</h2>
+                <p>As a Front-End developer, my passion lies in transforming creative designs into functional and intuitive user experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and visually engaging websites and applications. I am proficient in utilizing various frontend frameworks such as React, and Bootstrap to create seamless and interactive interfaces. </p>
+              </div>
+              <div class="pt-4">
+                <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skills</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill" data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award" aria-selected="false">Awards</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill" data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+                  </li>
+                
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab" tabindex="0">
+                    <div class="single-progress">
+                      <h6>HTML</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">80%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>CSS</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">75%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>javascript</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">70%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>bootstrap</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">60%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>React.js</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">40%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>MYSQL</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">65%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>GIT(version control)</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">60%</span>
+                    </div>
+
+                    <div class="single-progress">
+                      <h6>Python</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">45%</span>
+                    </div>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-Award" role="tabpanel" aria-labelledby="pills-Award-tab" tabindex="0">
+                    <ul class="text-start ps-0">
+                      <li><a href="python_basic certificate.pdf">
+                        <span>Click here to visit :- Python(Basic) :</span></a>2024
+                    </li>
+
+                    <li><a href="be 10x.pdf">
+                      <span>Click here to visit :- Be10x :</span></a>2024
+                    </li>
+                    </ul>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab" tabindex="0">
+                    <ul class="text-start ps-0">
+                      <li><a href="#">Frontend-Developer :
+                        <span>Octanet Pvt.ltd.</span></a>1March - 1May
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab" tabindex="0">
+                    <ul class="text-start ps-0">
+                      <li><a href="#">BCA - <span>
+                        Arka Jain University</span></a>2022-2025
+                      </li>
+                      <li><a href="#">12th - <span>
+                        Wetge public school</span></a>2021-2022
+                      </li>
+                      <li><a href="#">10th - <span>
+                        St paul's modern school</span></a>2019-2020
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services  -->
+       <section id="services" class="services_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm12 text-center mb-4 mt-5">
+              <span class="subtitle">What I can do for you</span>
+              <h2>My Awesome Services</h2>
+              <p>I take pride in my attention to detail, problem-solving abilities, and dedication to delivering high-quality results that exceed client expectations. I am committed to creating accessible, user-friendly, and performant websites that not only look great but also provide a superior user experience. My goal is to bring creativity, functionality, and excellence to every project I work on, driving meaningful impact and success for clients and users alike. <br class="d-none d-md-block"> </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 mb-4">
+              <div class="card">
+                <div class="card-body text-md-start text-center">
+                  <img src="website-code-1024.webp" alt="services" class="img-fluid mb-4">
+                  <h3>Web development</h3>
+                  <p>As a web developer, I specialize in designing and creating fluid, responsive websites that not only look visually appealing but also function seamlessly across all devices. With a strong background in HTML, CSS, JavaScript, and various front-end frameworks, I am able to bring static designs to life and create dynamic, interactive user experiences.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+           <!-- Portfolio -->
+
+       <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center mb-4">
+              <span class="subtitle">My Complete Projects</span>
+              <h2>My Latest Projects</h2>
+              <p>As a web developer, I am dedicated to staying updated with the latest web development trends and technologies,<br class="d-none d-md-block"> ensuring that all of my projects are cutting-edge and up-to-date. Let's work together to bring your online presence to the next level"> </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+              <div class="card p-0">
+                <span style="background-image: url('1.png');"></span>
+              </div>
+              <p class="mt-2">Amazon clone</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+              <div class="card p-0">
+                <span style="background-image: url('2.png');"></span>
+              </div>
+              <p class="mt-2 ">login page</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+              <div class="card p-0">
+                <span style="background-image: url('3.png');"></span>
+              </div>
+              <p class="mt-2">Age calculator</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+              <div class="card p-0">
+                <span style="background-image: url('4.png');"></span>
+              </div>
+              <p class="mt-2">Furniture Website</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+              <div class="card p-0">
+                <span style="background-image: url('5.png');"></span>
+              </div>
+              <p class="mt-2">Landing page</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+              <div class="card p-0">
+                <span style="background-image: url(6.png);"></span>
+              </div>
+              <p class="mt-2">Netflix Clone</p>
+            </div>
+
+          </div>
+        </div>
+       </section>
+
+       <!-- contact section  -->
+
+        <section id="contact" class="contact_wrapper">
+          <div class="container">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-6 order-2 order-lg-1  text-lg-start text-center">
+                <span class="subtitle">My Contact Details</span>
+                <h2>Contact Me</h2>
+                <div class="row call_details mb-4">
+                  <label for="number" class="col-sm-3 col-lg-4">Call me directly :-</label>
+
+                  <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                    <a href="javascript:void(0)">+91 8809702654 /</a>
+                    <a href="javascript:void(1)">+91 9304504336</a>
+                  </div>
+
+                  <label for="email" class="col-sm-3 col-lg-4">Contact Email :-</label>
+                   <!-- <label for="contact" class="col-sm-3 col-lg-4"></label> -->
+
+                  <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                    <a href="mailto:kumarprince51663@gmail.com">kumarprince51663@gmail.com</a>
+                  </div>
+                </div>
+                <form id="contact">
+                  <div class="mb-4">
+                    <input id="text" type="text" class="form-control" placeholder="Your Name...." autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                    <input id="number" type="number" class="form-control" placeholder="Your Phone...." autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                    <input id="email" type="email" class="form-control" placeholder="Your Email...." autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                    <textarea cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message here...." autocomplete="off"></textarea>
+                  </div>
+                  <button id="submit" type="submit" class="main-btn">Submit</button>
+                </form>
+              </div>
+              <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                <img src="11.webp" class="img-fluid" >
+              </div>
+            </div>
+          </div>
+        </section>
+       
+       <!-- footer section  -->
+        <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-4 col-md-6 text-center text-md-start">
+                <div class="footer-logo mb-3 mb-md-0">
+                  <img src="12.jpg" class="img-fluid w-25" alt="">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram" style="color: #dd22a2;"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook" style="color: #4d19e6;"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/prince7635"><i class="fa-brands fa-github" style="color: #d4e8f1;"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/prince-kumar-11a3b6261/"><i class="fa-brands fa-linkedin-in" style="color: #4d19e6;"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                  <p class="mb-0">Copyright @ 2024 <a href="#">Portfolio Website</a> All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+
+  <!-- bootstrap javascript link  -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+      <script src="project.js"></script>
+  </body>
+</html>
+
